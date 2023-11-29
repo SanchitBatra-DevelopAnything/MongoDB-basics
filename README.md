@@ -12,4 +12,16 @@ Comparison with SQL
 3.) Do mongosh in terminal to get started
 
 Instructions : https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#std-label-install-mdb-community-macos
+----------------
+
+Some concepts : 
+
+1.) db.collection.insertOne({.............data here})
+
+db refers to the current database which has been selected , eg : use houses (houses is the db name , and db. means houses ke andar)
+say we have collection called Rohini
+
+db.Rohini.insertOne({...})
+
+means houses me Rohini collection ke andar ye data daaldo
 
